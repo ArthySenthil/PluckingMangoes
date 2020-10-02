@@ -38,7 +38,9 @@ function draw(){
     strokeWeight(4);
     imageMode(CENTER);
     image(boy, 150, 300, 200, 300);
-    
+    textSize(16);
+    text("To pluck Mangoes, pull and release the stone!",50,100);
+    text("Press space to play again!",50,150);
     tree.display(); 
     mango1.display();
     mango2.display();
